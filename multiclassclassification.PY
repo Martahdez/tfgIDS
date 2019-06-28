@@ -23,7 +23,7 @@ y = to_categorical(dataset_y)
 model = Sequential()
 model.add(Dense(20, input_dim=42, activation='relu')) 
 model.add(Dense(20, activation='relu'))
-model.add(Dense(23, activation='softmax'))
+model.add(Dense(10, activation='softmax'))
 #Load weights if it is need
 #model.load_weights('weights/1.h5')
 #Compile
